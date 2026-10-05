@@ -1,0 +1,135 @@
+.promo-map-section {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+}
+
+/* --- Left Side: Gradient Promo --- */
+.promo-content {
+  flex: 1;
+  background: linear-gradient(135deg, #fbb03b 0%, #ec008c 100%);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.promo-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 2rem;
+}
+
+.promo-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.promo-title {
+  font-size: 2.8rem;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+}
+
+.promo-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.promo-btn-outline {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.promo-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.promo-btn-solid {
+  background: white;
+  border: none;
+  color: #1a2433;
+  padding: 1rem 2.5rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.promo-btn-solid:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Right Side: Google Map --- */
+.map-container {
+  flex: 1;
+  position: relative;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+  .promo-title {
+    font-size: 2.2rem;
+  }
+  .promo-content {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo-map-section {
+    flex-direction: column;
+  }
+  
+  .promo-content {
+    padding: 4rem 1.5rem;
+  }
+  
+  .promo-title {
+    font-size: 1.8rem;
+  }
+  
+  .promo-buttons {
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .promo-btn-outline, .promo-btn-solid {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .map-container {
+    height: 450px;
+    flex: none;
+  }
+}

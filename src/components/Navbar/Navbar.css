@@ -1,0 +1,163 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 4rem;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.yanga {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(to right, #fbb03b, #ec008c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+
+.dental-clinic {
+  background-color: #ec008c;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active {
+  color: #ec008c;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.hamburger-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(135deg, #f6805d, #e81d7d);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hamburger-btn .bar {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* --- Mobile Menu Overlay Styles --- */
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  z-index: 999;
+  transition: right 0.3s ease-in-out;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.mobile-menu-overlay.open {
+  right: 0;
+}
+
+.close-menu-btn {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #888;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.mobile-nav-links a {
+  text-decoration: none;
+  color: #888;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.mobile-nav-links a.active {
+  color: #1a2433;
+}
+
+.mobile-contact-info p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+  color: #1a2433;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* --- Responsive Breakpoints --- */
+@media (max-width: 1024px) {
+  .navbar { padding: 1rem 2rem; }
+  .nav-links { display: none; }
+  .desktop-btn { display: none; }
+  .hamburger-btn { display: flex; }
+}
+
+@media (max-width: 768px) {
+  .navbar { padding: 1rem 1.5rem; }
+}

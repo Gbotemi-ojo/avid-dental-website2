@@ -1,0 +1,72 @@
+.stats-section {
+  display: flex;
+  width: 100%;
+  min-height: 550px;
+}
+
+.stats-content {
+  flex: 0 0 45%; /* Takes up 45% of the width on desktop */
+  background: linear-gradient(135deg, #fbb03b 0%, #ec008c 100%);
+  padding: 6rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem 2rem;
+  color: white;
+  align-content: center;
+}
+
+.stat-item h3 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.stat-item p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stats-image-container {
+  flex: 1; /* Takes up the remaining 55% of the width */
+  position: relative;
+}
+
+.clinic-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the space without distortion */
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+  .stats-content {
+    padding: 4rem 3rem;
+    gap: 3rem 2rem;
+  }
+  
+  .stat-item h3 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-section {
+    flex-direction: column; /* Stacks the gradient block on top of the image */
+  }
+  
+  .stats-content {
+    flex: none;
+    padding: 4rem 2rem;
+    grid-template-columns: 1fr; /* Transforms the 2x2 grid into a single column */
+    gap: 2.5rem;
+  }
+  
+  .stats-image-container {
+    min-height: 400px; /* Gives the image a fixed height on mobile */
+  }
+}

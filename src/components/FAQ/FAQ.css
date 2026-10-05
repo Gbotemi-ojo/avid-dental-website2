@@ -1,0 +1,149 @@
+.faq-section {
+  display: flex;
+  width: 100%;
+  padding: 8rem 5rem;
+  background-color: #ffffff;
+  gap: 4rem;
+}
+
+/* --- Left Side: Header & Text --- */
+.faq-left {
+  flex: 0 0 35%;
+}
+
+.faq-subtitle {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.faq-title {
+  font-size: 4rem;
+  color: #1a2433;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 2.5rem;
+}
+
+.faq-text {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #1a2433;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #ec008c;
+}
+
+/* --- Right Side: Accordion --- */
+.faq-right {
+  flex: 1;
+}
+
+.accordion-container {
+  border-top: 1px solid #eaeaea;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.accordion-header {
+  width: 100%;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion-header h3 {
+  font-size: 1.4rem;
+  color: #333;
+  font-weight: 400;
+  padding-right: 2rem;
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  color: #999;
+  font-weight: 300;
+  transition: color 0.3s ease;
+}
+
+.accordion-header:hover h3,
+.accordion-header:hover .accordion-icon {
+  color: #1a2433;
+}
+
+.accordion-content {
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 
+  Preserves whitespace and line breaks from the data array 
+  so things like address lines stack correctly. 
+*/
+.accordion-content p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  white-space: pre-wrap; 
+  margin: 0;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+  .faq-section {
+    padding: 5rem 3rem;
+    gap: 3rem;
+  }
+  .faq-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    flex-direction: column;
+    padding: 4rem 1.5rem;
+  }
+  
+  .faq-left {
+    flex: none;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-title {
+    font-size: 2.5rem;
+  }
+  
+  .accordion-header h3 {
+    font-size: 1.2rem;
+  }
+  
+  .accordion-content p {
+    font-size: 1rem;
+  }
+}

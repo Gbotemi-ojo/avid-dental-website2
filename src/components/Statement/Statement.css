@@ -1,0 +1,123 @@
+.statement-section {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 6rem 2rem;
+  overflow: hidden;
+}
+
+.statement-content {
+  max-width: 900px;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+
+.statement-content p {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: #1a2433; /* Dark navy/slate color for text */
+  font-weight: 300;
+}
+
+/* --- Floating Circular Images --- */
+.floating-img {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #eee;
+  z-index: 1;
+}
+
+.floating-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Desktop Positioning */
+.img-top-left {
+  top: 15%;
+  left: 8%;
+  width: 130px;
+  height: 130px;
+}
+
+.img-bottom-left {
+  bottom: 10%;
+  left: 5%;
+  width: 110px;
+  height: 110px;
+  box-shadow: 20px 20px 0 0 #ec008c; /* Pink offset */
+}
+
+.img-bottom-center {
+  bottom: -5%;
+  left: 30%;
+  width: 140px;
+  height: 140px;
+}
+
+.img-bottom-right {
+  bottom: 10%;
+  right: 5%;
+  width: 140px;
+  height: 140px;
+  box-shadow: 25px 25px 0 0 #f5a623; /* Orange offset */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .statement-content p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .statement-section {
+    /* Large top/bottom padding gives the floating images space to breathe */
+    padding: 10rem 1.5rem 18rem 1.5rem; 
+    min-height: auto;
+  }
+  
+  .statement-content p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  
+  /* Mobile Positioning matching the screenshot */
+  .img-top-left {
+    top: 5%;
+    left: 10%;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .img-bottom-left {
+    bottom: 25%;
+    left: 5%;
+    width: 70px;
+    height: 70px;
+    box-shadow: 15px 15px 0 0 #ec008c;
+  }
+  
+  .img-bottom-center {
+    bottom: 5%;
+    left: 20%;
+    width: 110px;
+    height: 110px;
+  }
+  
+  .img-bottom-right {
+    bottom: 15%;
+    right: 10%;
+    width: 90px;
+    height: 90px;
+    box-shadow: 15px 15px 0 0 #f5a623;
+  }
+}
+

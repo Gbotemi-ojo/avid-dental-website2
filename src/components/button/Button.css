@@ -1,0 +1,18 @@
+.gradient-btn {
+  background: linear-gradient(90deg, #FA7F59 0%, #ED1376 100%);
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+
+.gradient-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(237, 19, 118, 0.25);
+}
