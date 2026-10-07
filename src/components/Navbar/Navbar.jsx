@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const location = useLocation(); // Gets the current route to highlight the active link
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -22,15 +22,12 @@ const Navbar = () => {
         </div>
         
         <div className="nav-links">
-          {/* Replaced <a> with <Link> for React Router navigation */}
           <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
           <Link to="/services" className={location.pathname === '/services' ? 'active' : ''}>Our Services</Link>
-          
-          {/* Added a forward slash before the hash so cross-page anchor links work */}
-          <a href="/#promos">Promos</a>
-          <a href="/#pricing">Pricing</a>
-          <a href="/#about">About Us</a>
-          <a href="/#contact">Contact Us</a>
+          <Link to="/promos" className={location.pathname === '/promos' ? 'active' : ''}>Promos</Link>
+          <Link to="/pricing" className={location.pathname === '/pricing' ? 'active' : ''}>Pricing</Link>
+          <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About Us</Link>
+          <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact Us</Link>
         </div>
 
         <div className="nav-actions">
@@ -58,13 +55,12 @@ const Navbar = () => {
         <button className="close-menu-btn" onClick={toggleMenu}>✕</button>
         
         <div className="mobile-nav-links">
-          {/* Updated Mobile Links */}
           <Link to="/" onClick={toggleMenu} className={location.pathname === '/' ? 'active' : ''}>Home</Link>
           <Link to="/services" onClick={toggleMenu} className={location.pathname === '/services' ? 'active' : ''}>Our Services</Link>
-          <a href="/#promos" onClick={toggleMenu}>Promos</a>
-          <a href="/#pricing" onClick={toggleMenu}>Pricing</a>
-          <a href="/#about" onClick={toggleMenu}>About Us</a>
-          <a href="/#contact" onClick={toggleMenu}>Contact Us</a>
+          <Link to="/promos" onClick={toggleMenu} className={location.pathname === '/promos' ? 'active' : ''}>Promos</Link>
+          <Link to="/pricing" onClick={toggleMenu} className={location.pathname === '/pricing' ? 'active' : ''}>Pricing</Link>
+          <Link to="/about" onClick={toggleMenu} className={location.pathname === '/about' ? 'active' : ''}>About Us</Link>
+          <Link to="/contact" onClick={toggleMenu} className={location.pathname === '/contact' ? 'active' : ''}>Contact Us</Link>
         </div>
 
         <div className="mobile-contact-info">
@@ -86,3 +82,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

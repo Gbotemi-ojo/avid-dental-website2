@@ -1,0 +1,267 @@
+.pricelist-page {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+/* --- Hero Section --- */
+.pricelist-hero {
+  position: relative;
+  min-height: 400px;
+  background-image: url(''); /* Add your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 4rem 6rem;
+  color: white;
+}
+
+.pricelist-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(251, 176, 59, 0.85) 0%, rgba(236, 0, 140, 0.9) 100%);
+  z-index: 1;
+}
+
+.pricelist-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.pricelist-title {
+  font-size: 4.5rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.pricelist-subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* --- Pricing Grid --- */
+.pricelist-grid-container {
+  padding: 6rem 4rem 4rem 4rem;
+}
+
+.pricelist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricelist-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricelist-card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 2rem;
+}
+
+.pricelist-card-title {
+  font-size: 1.8rem;
+  color: #1a2433;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+
+.pricelist-items {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3rem 0;
+  flex-grow: 1;
+}
+
+.pricelist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pricelist-item:last-child {
+  border-bottom: none;
+}
+
+.pricelist-item-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 60%;
+}
+
+.check-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.item-name {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.item-price {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a2433;
+  text-align: right;
+}
+
+.pricelist-book-btn {
+  text-decoration: none;
+  color: #1a2433;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.pricelist-book-btn:hover {
+  color: #ED1376;
+}
+
+.pricelist-action-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.pricelist-outline-btn {
+  background: transparent;
+  border: 1px solid #1a2433;
+  color: #1a2433;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pricelist-outline-btn:hover {
+  background: #1a2433;
+  color: #ffffff;
+}
+
+/* --- Services Carousel --- */
+.pricelist-services-carousel {
+  padding: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.carousel-header h2 {
+  font-size: 2.5rem;
+  color: #1a2433;
+  font-weight: 300;
+}
+
+.carousel-controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.carousel-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #1a2433;
+  background: transparent;
+  color: #1a2433;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background: #1a2433;
+  color: white;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 2rem;
+  /* Hide scrollbar for a cleaner look */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-card {
+  flex: 0 0 calc(33.333% - 1rem);
+  min-width: 350px;
+  height: 350px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  scroll-snap-align: start;
+}
+
+/* Reusing the overlay logic from DetailedServices */
+.carousel-card .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+  .pricelist-hero { padding: 4rem 3rem; }
+  .pricelist-title { font-size: 3.5rem; }
+  .pricelist-grid-container { padding: 5rem 2rem 4rem 2rem; }
+  .pricelist-grid { grid-template-columns: repeat(2, 1fr); }
+  .pricelist-services-carousel { padding: 4rem 2rem; }
+}
+
+@media (max-width: 768px) {
+  .pricelist-hero { padding: 4rem 1.5rem; min-height: 300px; }
+  .pricelist-title { font-size: 2.8rem; }
+  .pricelist-grid-container { padding: 3rem 1.5rem; }
+  .pricelist-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .pricelist-card { padding: 2.5rem 1.5rem; }
+  .pricelist-services-carousel { padding: 4rem 1.5rem; }
+  .carousel-header h2 { font-size: 2rem; }
+  .carousel-card { min-width: 280px; height: 300px; }
+}

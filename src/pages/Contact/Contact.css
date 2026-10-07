@@ -1,0 +1,180 @@
+.contact-page {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+/* --- Contact Hero Section --- */
+.contact-hero {
+  position: relative;
+  min-height: 500px;
+  /* Image path removed temporarily as requested */
+  background-color: #f28b40; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 4rem 6rem;
+  color: white;
+}
+
+.contact-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(251, 176, 59, 0.85) 0%, rgba(236, 0, 140, 0.9) 100%);
+  z-index: 1;
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.contact-badge {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.contact-title {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
+.contact-actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.book-online-btn {
+  background: #ffffff;
+  color: #1a2433;
+  border: none;
+  padding: 1.2rem 2.5rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-online-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.call-action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.call-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fbb03b;
+  border-radius: 50%;
+}
+
+.call-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* --- Contact Information Section --- */
+.contact-info-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6rem;
+  gap: 4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contact-details-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-title {
+  font-size: 3.5rem;
+  color: #1a2433;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.info-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 450px;
+}
+
+.address-label {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: #555;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.address-text {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.contact-map-col {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+  .contact-hero { padding: 4rem 3rem; }
+  .contact-title { font-size: 3.5rem; }
+  .contact-info-section { padding: 5rem 3rem; gap: 3rem; }
+}
+
+@media (max-width: 768px) {
+  .contact-hero { padding: 4rem 1.5rem; }
+  .contact-title { font-size: 2.8rem; }
+  .contact-actions { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+  .book-online-btn { width: 100%; }
+  
+  .contact-info-section { 
+    grid-template-columns: 1fr; 
+    padding: 4rem 1.5rem; 
+    gap: 3rem;
+  }
+  .info-title { font-size: 2.5rem; }
+  .contact-map-col iframe { min-height: 350px; }
+}

@@ -1,0 +1,151 @@
+.book-appointment-page {
+  width: 100%;
+  min-height: 100vh; /* Ensures the page takes up the full height */
+  background-color: #f2ebe1; /* Light beige background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem;
+}
+
+.booking-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eaeaea;
+}
+
+.booking-header {
+  margin-bottom: 1.5rem;
+}
+
+.booking-header h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Matches the serif font in the design */
+  font-size: 1.8rem;
+  color: #1a2433;
+  margin-bottom: 0.2rem;
+}
+
+.booking-header p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* --- Form Grid Layout --- */
+.appointment-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.half-width {
+  grid-column: span 1;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.8rem 1rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #333;
+  background-color: #fff;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #1a2433;
+}
+
+.form-group input::placeholder {
+  color: #999;
+}
+
+/* --- Custom Clinic Toggle --- */
+.clinic-toggle {
+  display: flex;
+  gap: 1rem;
+}
+
+.clinic-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0.8rem;
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  color: #1a2433;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Active state for the selected clinic button */
+.clinic-btn.active {
+  border-color: #1a2433;
+  background-color: #f8fafc;
+  box-shadow: 0 0 0 1px #1a2433; /* Gives it a slightly thicker border look */
+}
+
+/* --- Submit Button --- */
+.request-submit-btn {
+  grid-column: 1 / -1;
+  background-color: #2b3b52; /* Dark navy color matching the design */
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.request-submit-btn:hover {
+  background-color: #1a2433;
+}
+
+/* --- Footer Disclaimer --- */
+.booking-disclaimer {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  color: #777;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 600px) {
+  .appointment-form {
+    grid-template-columns: 1fr; /* Stacks all fields on very small screens */
+  }
+  .half-width {
+    grid-column: 1 / -1;
+  }
+}
