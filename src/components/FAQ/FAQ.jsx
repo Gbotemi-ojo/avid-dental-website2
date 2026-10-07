@@ -16,7 +16,7 @@ const faqData = [
   },
   {
     question: 'How do I book an appointment?',
-    answer: 'You can book directly online using the "Book Now" button or call us at 07025030034. Early booking is recommended due to high patient demand.'
+    answer: 'You can book directly online using the "Book Now" button or call us at 0901 645 9100. Early booking is recommended due to high patient demand.'
   },
   {
     question: 'Do you offer teeth alignment without metal braces?',
@@ -24,7 +24,7 @@ const faqData = [
   },
   {
     question: 'Where is the clinic located?',
-    answer: 'Yanga Dental Clinic\n51 Bode Thomas Street, Surulere, Lagos'
+    answer: 'Avid Dental\nIle Zik Bus Stop, 601 Agege Motor Rd, Ile Zik, Ikeja 101233, Lagos'
   }
 ];
 

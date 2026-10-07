@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact-hero-content">
           <span className="contact-badge">CONTACT US</span>
           <h1 className="contact-title">
-            Reach Out to Yanga Dental<br />
+            Reach Out to Avid Dental<br />
             Online or by Phone.
           </h1>
           <p className="contact-subtitle">
@@ -25,7 +25,7 @@ const Contact = () => {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
               </span>
-              <span className="call-text">Call: 07025030034</span>
+              <span className="call-text">Call: 0901 645 9100</span>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Contact = () => {
           
           <div className="address-block">
             <span className="address-label">ADDRESS:</span>
-            <p className="address-text">51 Bode Thomas Street, Surulere, Lagos.</p>
+            <p className="address-text">Ile Zik Bus Stop, 601 Agege Motor Rd, Ile Zik, Ikeja 101233, Lagos.</p>
           </div>
         </div>
 

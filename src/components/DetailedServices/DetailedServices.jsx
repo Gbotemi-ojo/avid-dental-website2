@@ -19,7 +19,7 @@ const DetailedServices = () => {
       <div className="services-hero">
         <h1 className="services-hero-title">Services</h1>
         <p className="services-hero-subtitle">
-          At Yanga Dental Clinic, we offer a full range of high-quality dental services, tailored to your unique needs.
+          At Avid Dental, we offer a full range of high-quality dental services, tailored to your unique needs.
         </p>
       </div>
 

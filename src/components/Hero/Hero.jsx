@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-left">
         <div className="hero-content">
-          <p className="welcome-text">WELCOME TO YANGA DENTAL CLINIC</p>
+          <p className="welcome-text">WELCOME TO AVID DENTAL CLINIC</p>
           <h1 className="hero-title">Smile with<br/>Confidence.</h1>
           <p className="hero-subtitle">Get the healthy, beautiful smile you deserve.</p>
           
@@ -26,7 +26,7 @@ const Hero = () => {
             className="model-image"
           />
           <div className="premium-badge">
-             <div className="badge-placeholder">Yanga Premium</div>
+             <div className="badge-placeholder">Avid Premium</div>
           </div>
         </div>
       </div>

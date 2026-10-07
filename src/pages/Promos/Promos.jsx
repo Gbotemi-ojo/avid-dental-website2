@@ -11,7 +11,7 @@ const Promos = () => {
           <span className="promo-badge">PROMO</span>
           <h1 className="promo-title">
             Smile Brighter<br />
-            with Yanga<br />
+            with Avid<br />
             Dental
           </h1>
           <p className="promo-subtitle">
@@ -48,7 +48,7 @@ const Promos = () => {
             <img src="" alt="Dental clinic room" className="feature-image" />
           </div>
           <div className="feature-content pink-bg">
-            <h3>Why Choose Yanga Dental</h3>
+            <h3>Why Choose Avid Dental</h3>
             <ul className="feature-list">
               <li>- Modern, fully equipped dental clinic in a serene location</li>
               <li>- Experienced dentists & specialist care for all age groups</li>

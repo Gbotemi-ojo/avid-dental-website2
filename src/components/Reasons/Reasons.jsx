@@ -8,7 +8,7 @@ const Reasons = () => {
         {/* Replace with your actual team image from the public folder */}
         <img 
           src="/team.jpg" 
-          alt="Yanga Dental Clinic Team" 
+          alt="Avid Dental Team" 
           className="team-image"
         />
       </div>
@@ -18,7 +18,7 @@ const Reasons = () => {
           <span className="upgrade-badge">Smile Upgrade Available</span>
         </div>
         
-        <span className="reasons-subtitle">EXPERIENCE YANGA DENTAL EXCELLENCE</span>
+        <span className="reasons-subtitle">EXPERIENCE AVID DENTAL EXCELLENCE</span>
         
         <h2 className="reasons-title">
           Here's More Reason to<br />

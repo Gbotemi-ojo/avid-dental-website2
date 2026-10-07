@@ -30,7 +30,7 @@ const Stats = () => {
         {/* Replace with your actual building image from the public folder */}
         <img 
           src="/clinic-building.jpg" 
-          alt="Yanga Dental Clinic exterior" 
+          alt="Avid Dental exterior" 
           className="clinic-image"
         />
       </div>

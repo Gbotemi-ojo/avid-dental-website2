@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './BookAppointment.css';
 
 const BookAppointment = () => {
-  const [selectedClinic, setSelectedClinic] = useState('Surulere');
-
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here
@@ -13,7 +11,7 @@ const BookAppointment = () => {
     <main className="book-appointment-page">
       <div className="booking-card">
         <div className="booking-header">
-          <h1>Yanga Dental</h1>
+          <h1>Avid Dental</h1>
           <p>Request an appointment</p>
         </div>
 
@@ -27,7 +25,7 @@ const BookAppointment = () => {
           {/* Phone & Email Row */}
           <div className="form-group half-width">
             <label>Phone number *</label>
-            <input type="tel" placeholder="+234..." required />
+            <input type="tel" placeholder="0901 645 9100" required />
           </div>
           <div className="form-group half-width">
             <label>Email (optional)</label>
@@ -47,35 +45,6 @@ const BookAppointment = () => {
               <option value="afternoon">Afternoon</option>
               <option value="evening">Evening</option>
             </select>
-          </div>
-
-          {/* Clinic Selection */}
-          <div className="form-group full-width">
-            <label>Which clinic? *</label>
-            <div className="clinic-toggle">
-              <button 
-                type="button" 
-                className={`clinic-btn ${selectedClinic === 'Surulere' ? 'active' : ''}`}
-                onClick={() => setSelectedClinic('Surulere')}
-              >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                  <circle cx="12" cy="10" r="3"></circle>
-                </svg>
-                Surulere
-              </button>
-              <button 
-                type="button" 
-                className={`clinic-btn ${selectedClinic === 'Egbeda' ? 'active' : ''}`}
-                onClick={() => setSelectedClinic('Egbeda')}
-              >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                  <circle cx="12" cy="10" r="3"></circle>
-                </svg>
-                Egbeda
-              </button>
-            </div>
           </div>
 
           {/* Reason for visit */}

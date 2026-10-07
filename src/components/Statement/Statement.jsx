@@ -23,7 +23,7 @@ const Statement = () => {
 
       <div className="statement-content">
         <p>
-          At Yanga Dental Clinic, we combine expert care with state-of-the-art technology. 
+          At Avid Dental, we combine expert care with state-of-the-art technology. 
           From routine cleanings to advanced procedures, our skilled team and modern equipment 
           ensure precise, high-quality dental care for every patient.
         </p>

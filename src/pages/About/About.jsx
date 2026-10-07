@@ -14,16 +14,16 @@ const About = () => {
       {/* About Hero Section */}
       <section className="about-hero">
         <div className="about-hero-image-container">
-          <img src="" alt="Yanga Dental Clinic Dentist" className="about-hero-image" />
+          <img src="" alt="Avid Dental Dentist" className="about-hero-image" />
         </div>
         <div className="about-hero-content">
           <span className="about-badge">ABOUT US</span>
           <h1 className="about-title">
-            Why Yanga<br />
+            Why Avid<br />
             Dental<br />
             Clinic?
           </h1>
-          <p className="about-subtitle">The Ultimate Dental Experience in Surulere</p>
+          <p className="about-subtitle">The Ultimate Dental Experience in Ikeja</p>
           <ul className="about-features-list">
             <li>Modern facility with the latest equipment</li>
             <li>Transparent pricing with flexible options</li>
@@ -39,10 +39,10 @@ const About = () => {
           <img src="" alt="Dentists treating patient" className="welcome-image" />
         </div>
         <div className="welcome-content">
-          <h2>Welcome to<br />Yanga Dental<br />Clinic</h2>
+          <h2>Welcome to<br />Avid Dental<br />Clinic</h2>
           <span className="welcome-subtitle">Your Comfort. Our Priority.</span>
           <p>
-            At Yanga Dental Clinic, we combine expert care with the warmth of true hospitality. From your first visit to every follow-up, our modern clinic in Surulere, Lagos is designed to make you feel at ease while delivering top-tier dental solutions. Whether you need a routine cleaning, a confident smile makeover, or advanced restorative treatment—we're here to serve you with precision and compassion.
+            At Avid Dental, we combine expert care with the warmth of true hospitality. From your first visit to every follow-up, our modern clinic in Ikeja, Lagos is designed to make you feel at ease while delivering top-tier dental solutions. Whether you need a routine cleaning, a confident smile makeover, or advanced restorative treatment—we're here to serve you with precision and compassion.
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ const About = () => {
         <div className="story-header">
           <h2>Our Story</h2>
           <p>
-            We believe everyone deserves to feel confident in their smile. That's why Yanga Dental Clinic offers a full spectrum of services from routine cleanings and exams to life-changing veneers, braces, and implants. With cutting-edge technology and a skilled, friendly team, we're on a mission to raise the standard of dental care in Nigeria, one smile at a time
+            We believe everyone deserves to feel confident in their smile. That's why Avid Dental offers a full spectrum of services from routine cleanings and exams to life-changing veneers, braces, and implants. With cutting-edge technology and a skilled, friendly team, we're on a mission to raise the standard of dental care in Nigeria, one smile at a time
           </p>
         </div>
         <div className="story-images">
@@ -100,7 +100,7 @@ const About = () => {
       {/* Booking Form Section */}
       <section className="about-booking">
         <div className="booking-header">
-          <span className="booking-subtitle">BOOK YOUR VISIT TO YANGA DENTAL</span>
+          <span className="booking-subtitle">BOOK YOUR VISIT TO AVID DENTAL</span>
           <h2>Take the next step and schedule an<br />appointment today</h2>
         </div>
         <form className="booking-form" onSubmit={(e) => e.preventDefault()}>

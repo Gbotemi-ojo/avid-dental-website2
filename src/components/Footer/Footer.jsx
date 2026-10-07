@@ -9,7 +9,7 @@ const Footer = () => {
         <h2 className="footer-banner-title">
           Thousands of Confident<br />
           Smiles, Delivered with Care in<br />
-          the Heart of Surulere
+          the Heart of Ikeja
         </h2>
         <button className="footer-book-btn">BOOK NOW</button>
       </div>
@@ -19,11 +19,11 @@ const Footer = () => {
         {/* Column 1: Brand & About */}
         <div className="footer-col brand-col">
           <div className="footer-logo">
-            <span className="yanga-logo-text">YANGA</span>
+            <span className="yanga-logo-text">AVID</span>
             <span className="dental-clinic-badge">DENTAL CLINIC</span>
           </div>
           <p className="footer-about-text">
-            We believe your smile is your superpower. At Yanga Dental, we are committed to delivering premium dental care in a warm, modern and professional environment. From cleanings to cosmetic procedures, we treat every patient like family because you deserve to smile with confidence.
+            We believe your smile is your superpower. At Avid Dental, we are committed to delivering premium dental care in a warm, modern and professional environment. From cleanings to cosmetic procedures, we treat every patient like family because you deserve to smile with confidence.
           </p>
           <div className="social-icons">
             {/* Instagram */}
@@ -74,17 +74,16 @@ const Footer = () => {
         <div className="footer-col contact-col">
           <h4 className="footer-heading">CONTACT</h4>
           <div className="contact-details">
-            <p>51 Bode Thomas Street<br/>Surulere, Lagos</p>
-            <p>32 Akowonjo Road, Egbeda<br/>Lagos</p>
+            <p>Ile Zik Bus Stop<br/>601 Agege Motor Rd, Ile Zik<br/>Ikeja 101233, Lagos</p>
             
             <div className="contact-row">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fbb03b" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              <span>07025030034 | 07079941036</span>
+              <span>0901 645 9100</span>
             </div>
             
             <div className="contact-row">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fbb03b" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-              <span>hello@yangadental.com</span>
+              <span>ajaniteea@gmail.com</span>
             </div>
           </div>
         </div>
@@ -92,7 +91,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>© 2026 Yanga Dental Clinic. All rights reserved. | Built by PhiliaTech.</p>
+        <p>© 2026 Avid Dental. All rights reserved. | Built by PhiliaTech.</p>
       </div>
     </footer>
   );
