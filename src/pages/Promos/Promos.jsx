@@ -45,7 +45,7 @@ const Promos = () => {
         <div className="feature-card">
           <div className="feature-image-container">
             {/* Replace with your actual image from the public folder */}
-            <img src="" alt="Dental clinic room" className="feature-image" />
+            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80" alt="Dental clinic room" className="feature-image" />
           </div>
           <div className="feature-content pink-bg">
             <h3>Why Choose Avid Dental</h3>
@@ -64,7 +64,7 @@ const Promos = () => {
         <div className="feature-card">
           <div className="feature-image-container">
             {/* Replace with your actual image from the public folder */}
-            <img src="/promo-room2.jpg" alt="Dental clinic chair" className="feature-image" />
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80" alt="Dental clinic chair" className="feature-image" />
           </div>
           <div className="feature-content orange-bg">
             <h3>Our Top Rated Services</h3>

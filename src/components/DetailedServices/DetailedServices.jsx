@@ -2,15 +2,15 @@ import React from 'react';
 import './DetailedServices.css';
 
 const detailedServicesData = [
-  { category: 'ORTHODONTICS', title: 'Braces', bgImage: '/braces-bg.jpg' },
-  { category: 'LUXURY DENTAL', title: 'Grillz', bgImage: '/grillz-bg.jpg' },
-  { category: 'WEIGHT MANAGEMENT', title: 'Jaw Locking', bgImage: '/jaw-bg.jpg' },
-  { category: 'AESTHETIC DENTISTRY', title: 'Fashion Braces', bgImage: '/fashion-braces-bg.jpg' },
-  { category: 'ORTHODONTICS', title: 'Retainers', bgImage: '/retainers-bg.jpg' },
-  { category: 'IMPLANT DENTISTRY', title: 'Dental Implants', bgImage: '/implants-bg.jpg' },
-  { category: 'ORTHODONTICS', title: 'Invisalign', bgImage: '/invisalign-bg.jpg' },
-  { category: 'ORTHODONTICS / RESTORATIVE DENTISTRY', title: 'Ivy Aligners', bgImage: '/ivy-aligners-bg.jpg' },
-  { category: 'RESTORATIVE DENTISTRY', title: 'Dentures', bgImage: '/dentures-bg.jpg' },
+  { category: 'ORTHODONTICS', title: 'Braces', bgImage: '/avid8.png' },
+  { category: 'LUXURY DENTAL', title: 'Grillz', bgImage: '/avid9.png' },
+  { category: 'WEIGHT MANAGEMENT', title: 'Jaw Locking', bgImage: '/avid10.png' },
+  { category: 'AESTHETIC DENTISTRY', title: 'Fashion Braces', bgImage: '/avid11.png' },
+  { category: 'ORTHODONTICS', title: 'Retainers', bgImage: '/avid12.png' },
+  { category: 'IMPLANT DENTISTRY', title: 'Dental Implants', bgImage: '/avid13.png' },
+  { category: 'ORTHODONTICS', title: 'Invisalign', bgImage: '/avid14.png' },
+  { category: 'ORTHODONTICS / RESTORATIVE DENTISTRY', title: 'Ivy Aligners', bgImage: '/avid15.png' },
+  { category: 'RESTORATIVE DENTISTRY', title: 'Dentures', bgImage: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80' },
 ];
 
 const DetailedServices = () => {

@@ -14,7 +14,7 @@ const About = () => {
       {/* About Hero Section */}
       <section className="about-hero">
         <div className="about-hero-image-container">
-          <img src="" alt="Avid Dental Dentist" className="about-hero-image" />
+          <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=800&q=80" alt="Avid Dental Dentist" className="about-hero-image" />
         </div>
         <div className="about-hero-content">
           <span className="about-badge">ABOUT US</span>
@@ -36,7 +36,7 @@ const About = () => {
       {/* Welcome Section */}
       <section className="about-welcome">
         <div className="welcome-image-container">
-          <img src="" alt="Dentists treating patient" className="welcome-image" />
+          <img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?auto=format&fit=crop&w=800&q=80" alt="Dentists treating patient" className="welcome-image" />
         </div>
         <div className="welcome-content">
           <h2>Welcome to<br />Avid Dental<br />Clinic</h2>
@@ -56,9 +56,9 @@ const About = () => {
           </p>
         </div>
         <div className="story-images">
-          <div className="story-img-wrapper"><img src="" alt="Team" /></div>
-          <div className="story-img-wrapper"><img src="" alt="Equipment" /></div>
-          <div className="story-img-wrapper"><img src="" alt="Patient care" /></div>
+          <div className="story-img-wrapper"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" alt="Team" /></div>
+          <div className="story-img-wrapper"><img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80" alt="Equipment" /></div>
+          <div className="story-img-wrapper"><img src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762?auto=format&fit=crop&w=800&q=80" alt="Patient care" /></div>
         </div>
       </section>
 
@@ -67,12 +67,12 @@ const About = () => {
         <h2 className="gallery-title">Tour our state-of-the-art facilities designed for<br />your comfort and peace of mind.</h2>
         <div className="gallery-grid">
           {/* 6 Empty image wrappers for the gallery grid */}
-          <div className="gallery-item"><img src="" alt="Facility 1" /></div>
-          <div className="gallery-item"><img src="" alt="Facility 2" /></div>
-          <div className="gallery-item"><img src="" alt="Facility 3" /></div>
-          <div className="gallery-item"><img src="" alt="Facility 4" /></div>
-          <div className="gallery-item"><img src="" alt="Facility 5" /></div>
-          <div className="gallery-item"><img src="" alt="Facility 6" /></div>
+          <div className="gallery-item"><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80" alt="Facility 1" /></div>
+          <div className="gallery-item"><img src="https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?auto=format&fit=crop&w=800&q=80" alt="Facility 2" /></div>
+          <div className="gallery-item"><img src="https://images.unsplash.com/photo-1606713070249-ec9e0f595f5b?auto=format&fit=crop&w=800&q=80" alt="Facility 3" /></div>
+          <div className="gallery-item"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" alt="Facility 4" /></div>
+          <div className="gallery-item"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80" alt="Facility 5" /></div>
+          <div className="gallery-item"><img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=800&q=80" alt="Facility 6" /></div>
         </div>
       </section>
 

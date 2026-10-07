@@ -101,10 +101,10 @@ const fullPricingData = [
 ];
 
 const carouselServices = [
-  { category: 'ORTHODONTICS', title: 'Braces', bgImage: '/braces-bg.jpg' },
-  { category: 'LUXURY DENTAL', title: 'Grillz', bgImage: '/grillz-bg.jpg' },
-  { category: 'WEIGHT MANAGEMENT', title: 'Jaw Locking', bgImage: '/jaw-bg.jpg' },
-  { category: 'AESTHETIC DENTISTRY', title: 'Fashion Braces', bgImage: '/fashion-braces-bg.jpg' }
+  { category: 'ORTHODONTICS', title: 'Braces', bgImage: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=800&q=80' },
+  { category: 'LUXURY DENTAL', title: 'Grillz', bgImage: 'https://images.unsplash.com/photo-1629909603654-28e377c37b09?auto=format&fit=crop&w=800&q=80' },
+  { category: 'WEIGHT MANAGEMENT', title: 'Jaw Locking', bgImage: 'https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=800&q=80' },
+  { category: 'AESTHETIC DENTISTRY', title: 'Fashion Braces', bgImage: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80' }
 ];
 
 const PriceList = () => {

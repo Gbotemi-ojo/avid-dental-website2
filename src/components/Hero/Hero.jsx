@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="hero-right">
         <div className="image-container">
           <img 
-            src="/avids1.jpg" 
+            src="/avid1.png" 
             alt="Smiling patient" 
             className="model-image"
           />

@@ -7,7 +7,7 @@ const Reasons = () => {
       <div className="reasons-image-container">
         {/* Replace with your actual team image from the public folder */}
         <img 
-          src="/team.jpg" 
+          src="/avid7.png" 
           alt="Avid Dental Team" 
           className="team-image"
         />
