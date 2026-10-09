@@ -7,7 +7,7 @@
 .pricelist-hero {
   position: relative;
   min-height: 400px;
-  background-image: url(''); /* Add your image path */
+  background-image: url('/avid2.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -235,7 +235,6 @@
   scroll-snap-align: start;
 }
 
-/* Reusing the overlay logic from DetailedServices */
 .carousel-card .card-overlay {
   position: absolute;
   top: 0;
