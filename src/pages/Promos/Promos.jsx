@@ -5,7 +5,7 @@ const Promos = () => {
   return (
     <main className="promos-page">
       {/* Promo Hero Section */}
-      <section className="promo-hero-section">
+      <section className="promo-hero-section" style={{ backgroundImage: "url('/avid1.png')" }}>
         <div className="promo-hero-overlay"></div>
         <div className="promo-hero-content">
           <span className="promo-badge">PROMO</span>
@@ -28,13 +28,13 @@ const Promos = () => {
             <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="#ec008c" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <span><strong>Flexible Payment Plans</strong> – available on Veneers, Braces, Crowns, and Implants</span>
+            <span><strong>Flexible Payment Plans</strong> available on Veneers, Braces, Crowns, and Implants</span>
           </li>
           <li>
             <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="#ec008c" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <span><strong>Family Group Plans</strong> – Register 10 family members and friends for ₦50,000 (save ₦135,000)</span>
+            <span><strong>Family Group Plans</strong> Register 10 family members and friends for ₦50,000 (save ₦135,000)</span>
           </li>
         </ul>
       </section>

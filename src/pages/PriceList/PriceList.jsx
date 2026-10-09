@@ -14,16 +14,16 @@ const fullPricingData = [
       </svg>
     ),
     items: [
-      { name: 'Registration & Consultation', price: '₦5,000' },
-      { name: 'Registration & Consultation (family)', price: '₦10,000' },
-      { name: 'Scaling and Polishing', price: '₦40,000' },
-      { name: 'Scaling and Polishing with Gross Stain', price: '₦50,000' },
-      { name: 'Curretage/Subgingival (per tooth)', price: '₦30,000' },
-      { name: 'Topical Flouridation/Desensitization', price: '₦20,000' },
-      { name: 'X-Ray', price: '₦10,000' },
-      { name: 'Gingivectomy/Operculectomy', price: '₦30,000' },
-      { name: 'Fissure Sealant', price: '₦20,000' },
-      { name: 'Fluoride Treatment', price: '₦35,000' }
+      { name: 'Registration & Consultation', price: '₦ 5,000' },
+      { name: 'Registration & Consultation (family)', price: '₦ 10,000' },
+      { name: 'Scaling and Polishing', price: '₦ 40,000' },
+      { name: 'Scaling and Polishing with Gross Stain', price: '₦ 50,000' },
+      { name: 'Curretage/Subgingival (per tooth)', price: '₦ 30,000' },
+      { name: 'Topical Flouridation/Desensitization', price: '₦ 20,000' },
+      { name: 'X-Ray', price: '₦ 10,000' },
+      { name: 'Gingivectomy/Operculectomy', price: '₦ 30,000' },
+      { name: 'Fissure Sealant', price: '₦ 20,000' },
+      { name: 'Fluoride Treatment', price: '₦ 35,000' }
     ]
   },
   {
@@ -34,13 +34,13 @@ const fullPricingData = [
       </svg>
     ),
     items: [
-      { name: 'Simple Extraction Anterior', price: '₦40,000' },
-      { name: 'Simple Extraction Posterior', price: '₦50,000' },
-      { name: 'Extraction of Retained Root', price: '₦50,000' },
-      { name: 'Surgical Extraction (Impacted 3rd Molar)', price: '₦100,000' },
-      { name: 'Incision & Drainage/Suturing with Debridement', price: '₦50,000' },
-      { name: 'Pulpotomy/Pulpectomy', price: '₦50,000' },
-      { name: 'Intermaxillary Fixation', price: '₦150,000' }
+      { name: 'Simple Extraction Anterior', price: '₦ 40,000' },
+      { name: 'Simple Extraction Posterior', price: '₦ 50,000' },
+      { name: 'Extraction of Retained Root', price: '₦ 50,000' },
+      { name: 'Surgical Extraction (Impacted 3rd Molar)', price: '₦ 100,000' },
+      { name: 'Incision & Drainage/Suturing with Debridement', price: '₦ 50,000' },
+      { name: 'Pulpotomy/Pulpectomy', price: '₦ 50,000' },
+      { name: 'Intermaxillary Fixation', price: '₦ 150,000' }
     ]
   },
   {
@@ -54,24 +54,24 @@ const fullPricingData = [
       </svg>
     ),
     items: [
-      { name: 'Temporary Dressing', price: '₦20,000' },
-      { name: 'Amalgam Filling', price: '₦30,000' },
-      { name: 'FUJI 9 (Posterior GIC) (per filling)', price: '₦50,000' },
-      { name: 'Composite Buildup', price: '₦50,000' },
-      { name: 'Esthetic Tooth Filling', price: '₦35,000' },
-      { name: 'GIC Filling', price: '₦40,000' },
-      { name: 'Root Canal Treatment Anterior', price: '₦100,000' },
-      { name: 'Root Canal Treatment Posterior', price: '₦150,000' },
-      { name: 'Tooth Whitening (3 Sessions)', price: '₦100,000' },
-      { name: 'Stainless Steel Crown', price: '₦75,000' },
-      { name: 'PFM Crown', price: '₦150,000' },
-      { name: 'Zirconium Crown', price: '₦250,000' },
-      { name: 'Gold Crown', price: '₦0' },
-      { name: 'Metallic Crown', price: '₦70,000' },
-      { name: 'E-Max Crown', price: '₦300,000' },
-      { name: 'Crown Cementation', price: '₦30,000' },
-      { name: 'Splinting with Wires', price: '₦100,000' },
-      { name: 'Splinting with GIC Composite', price: '₦150,000' }
+      { name: 'Temporary Dressing', price: '₦ 20,000' },
+      { name: 'Amalgam Filling', price: '₦ 30,000' },
+      { name: 'FUJI 9 (Posterior GIC) (per filling)', price: '₦ 50,000' },
+      { name: 'Composite Buildup', price: '₦ 50,000' },
+      { name: 'Esthetic Tooth Filling', price: '₦ 35,000' },
+      { name: 'GIC Filling', price: '₦ 40,000' },
+      { name: 'Root Canal Treatment Anterior', price: '₦ 100,000' },
+      { name: 'Root Canal Treatment Posterior', price: '₦ 150,000' },
+      { name: 'Tooth Whitening (3 Sessions)', price: '₦ 100,000' },
+      { name: 'Stainless Steel Crown', price: '₦ 75,000' },
+      { name: 'PFM Crown', price: '₦ 150,000' },
+      { name: 'Zirconium Crown', price: '₦ 250,000' },
+      { name: 'Gold Crown', price: '₦ 0' },
+      { name: 'Metallic Crown', price: '₦ 70,000' },
+      { name: 'E-Max Crown', price: '₦ 300,000' },
+      { name: 'Crown Cementation', price: '₦ 30,000' },
+      { name: 'Splinting with Wires', price: '₦ 100,000' },
+      { name: 'Splinting with GIC Composite', price: '₦ 150,000' }
     ]
   },
   {
@@ -82,20 +82,20 @@ const fullPricingData = [
       </svg>
     ),
     items: [
-      { name: 'Orthodontist Consult', price: '₦20,000' },
-      { name: 'Braces Consultation', price: '₦20,000' },
-      { name: 'Braces', price: '₦0' },
-      { name: 'Aligners', price: '₦0' },
-      { name: 'Essix Retainer', price: '₦100,000' },
-      { name: 'Dental Implant – One Tooth', price: '₦1,200,000' },
-      { name: 'Dental Implant – Two Teeth', price: '₦1,800,000' },
-      { name: 'Partial Denture', price: '₦50,000' },
-      { name: 'Removable Denture (Additional Tooth)', price: '₦50,000' },
-      { name: 'Flexible Denture (per tooth)', price: '₦75,000' },
-      { name: 'Flexible Denture (2nd tooth)', price: '₦40,000' },
-      { name: 'Denture Repair', price: '₦30,000' },
-      { name: 'Band & Loop Space Maintainers', price: '₦60,000' },
-      { name: 'LLA & TPA Space Maintainers', price: '₦70,000' }
+      { name: 'Orthodontist Consult', price: '₦ 20,000' },
+      { name: 'Braces Consultation', price: '₦ 20,000' },
+      { name: 'Braces', price: '₦ 0' },
+      { name: 'Aligners', price: '₦ 0' },
+      { name: 'Essix Retainer', price: '₦ 100,000' },
+      { name: 'Dental Implant – One Tooth', price: '₦ 1,200,000' },
+      { name: 'Dental Implant – Two Teeth', price: '₦ 1,800,000' },
+      { name: 'Partial Denture', price: '₦ 50,000' },
+      { name: 'Removable Denture (Additional Tooth)', price: '₦ 50,000' },
+      { name: 'Flexible Denture (per tooth)', price: '₦ 75,000' },
+      { name: 'Flexible Denture (2nd tooth)', price: '₦ 40,000' },
+      { name: 'Denture Repair', price: '₦ 30,000' },
+      { name: 'Band & Loop Space Maintainers', price: '₦ 60,000' },
+      { name: 'LLA & TPA Space Maintainers', price: '₦ 70,000' }
     ]
   }
 ];
@@ -119,7 +119,7 @@ const PriceList = () => {
       </svg>
 
       {/* Hero Section */}
-      <section className="pricelist-hero">
+      <section className="pricelist-hero" style={{ backgroundImage: "url('/avid2.png')" }}>
         <div className="pricelist-hero-overlay"></div>
         <div className="pricelist-hero-content">
           <h1 className="pricelist-title">Price List</h1>
@@ -154,7 +154,7 @@ const PriceList = () => {
               </ul>
               
               <a href="#book" className="pricelist-book-btn">
-                BOOK YOUR APPOINTMENT <span className="arrow">↘</span>
+                BOOK YOUR APPOINTMENT <span className="arrow">→</span>
               </a>
             </div>
           ))}
@@ -170,8 +170,8 @@ const PriceList = () => {
         <div className="carousel-header">
           <h2>Our Services</h2>
           <div className="carousel-controls">
-            <button className="carousel-btn">❮</button>
-            <button className="carousel-btn">❯</button>
+            <button className="carousel-btn">←</button>
+            <button className="carousel-btn">→</button>
           </div>
         </div>
         
